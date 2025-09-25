@@ -36,6 +36,11 @@ const neueMontreal = localFont({
 export const metadata = {
   title: 'Skool Aid - From Chalkboards to Dreamboards',
   description: 'Empowering Rwanda\'s classrooms with tools that make learning engaging, inclusive, and future-ready.',
+  icons: {
+    icon: '/Logo.svg',
+    shortcut: '/Logo.svg',
+    apple: '/Logo.svg',
+  },
 };
 
 export default function RootLayout({
