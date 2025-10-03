@@ -1,3 +1,5 @@
+'use client';
+import Link from "next/link";
 import { Star } from 'lucide-react';
 import Image from 'next/image'
 import { Input } from '@/components/ui/input';
@@ -38,9 +40,16 @@ export default function Header() {
                             <Input
                             type="search"
                             placeholder='Search...'
+                            className='rounded-lg outline-offset-2 outline-1 focus:!border-[var(--brand-orange)] focus-visible:!ring-purple-100 pr-10'
                             />
                         </div>
-                         <Button className='bg-[var(--brand-orange)]' variant='default'>Get Started</Button>
+                        <Button
+                            className='bg-[var(--brand-orange)]'
+                            variant='default'
+
+                        >
+                            <Link href="/register">Get Started</Link>
+                        </Button>
                     </div>
                 </div>
             </div>
