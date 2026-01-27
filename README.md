@@ -1,4 +1,4 @@
-# Skool Aid Frontend
+# Skool Aid Frontend cxc
 
 ## Overview
 Skool Aid Frontend is a web application designed to empower classrooms with tools that make learning engaging, inclusive, and future-ready. This project is built using Next.js, Tailwind CSS, and React.
