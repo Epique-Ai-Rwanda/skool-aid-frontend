@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello from Epique-RW!'
+                echo 'Hello from Epique-RW! and Muhirwa'
             }
         }
     }
